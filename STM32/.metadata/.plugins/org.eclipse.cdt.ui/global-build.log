@@ -1,22 +1,14 @@
-10:49:29 **** Incremental Build of configuration Debug for project Button_LED ****
+14:47:16 **** Incremental Build of configuration Debug for project IMU_Aquisition ****
 make -j20 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4S5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4S5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
-arm-none-eabi-gcc -o "Button_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\TinyML_Workspace\TinyML\STM32\Button_LED\STM32L4S5VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Button_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Button_LED.elf
- 
-arm-none-eabi-size  Button_LED.elf 
-arm-none-eabi-objdump -h -S Button_LED.elf  > "Button_LED.list"
+arm-none-eabi-size  IMU_Aquisition.elf 
    text	   data	    bss	    dec	    hex	filename
-   6752	     12	   1572	   8336	   2090	Button_LED.elf
+  41828	    468	   2156	  44452	   ada4	IMU_Aquisition.elf
 Finished building: default.size.stdout
  
-Finished building: Button_LED.list
- 
-10:49:36 **** Incremental Build of configuration Debug for project Button_LED ****
+14:47:23 **** Incremental Build of configuration Debug for project IMU_Aquisition ****
 make -j20 all 
-arm-none-eabi-size  Button_LED.elf 
+arm-none-eabi-size  IMU_Aquisition.elf 
    text	   data	    bss	    dec	    hex	filename
-   6752	     12	   1572	   8336	   2090	Button_LED.elf
+  41828	    468	   2156	  44452	   ada4	IMU_Aquisition.elf
 Finished building: default.size.stdout
  
