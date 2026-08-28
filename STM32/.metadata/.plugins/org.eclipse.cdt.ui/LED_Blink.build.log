@@ -1,0 +1,21 @@
+10:35:19 **** Incremental Build of configuration Debug for project LED_Blink ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4S5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:98:30: warning: statement with no effect [-Wunused-value]
+   98 |           for(int i=0;i<1000;100)
+      |                              ^~~
+arm-none-eabi-gcc -o "LED_Blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\TinyML_Workspace\TinyML\STM32\LED_Blink\STM32L4S5VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED_Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LED_Blink.elf
+ 
+arm-none-eabi-size  LED_Blink.elf 
+arm-none-eabi-objdump -h -S LED_Blink.elf  > "LED_Blink.list"
+   text	   data	    bss	    dec	    hex	filename
+   6756	     12	   1572	   8340	   2094	LED_Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: LED_Blink.list
+ 
+
+10:35:20 Build Finished. 0 errors, 1 warnings. (took 435ms)
+
