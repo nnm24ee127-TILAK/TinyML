@@ -1,7 +1,9 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Blink,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Button_LED,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MPU6050_Example,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IMU_Aquisition
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Blink,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Button_LED,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MPU6050_Example,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IMU_Aquisition,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IMU_MLP_Inference_RealTime,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Nano_Aquisition
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Button_LED/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Button_LED/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Blink/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Blink/activeLaunchTarget=null\:---

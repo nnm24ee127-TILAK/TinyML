@@ -251,3 +251,57 @@ Caused by: java.net.SocketException: Connection reset
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-08-28 14:40:03.481
 !MESSAGE Indexed 'IMU_Aquisition' (30 sources, 95 headers) in 1.88 sec: 9,309 declarations; 71,786 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0025%)
+!SESSION 2026-08-29 09:42:31.070 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-08-29 09:42:33.773
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-08-29 09:42:33.773
+!MESSAGE Log4j2 initialized with config file D:\TinyML_Workspace\TinyML\STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-08-29 09:42:37.335
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-29 09:45:16.353
+!MESSAGE Indexed 'IMU_inference' (30 sources, 95 headers) in 1.92 sec: 9,309 declarations; 71,786 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0025%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-29 10:16:36.815
+!MESSAGE Indexed 'IMU_MLP_Inference_RealTime' (28 sources, 167 headers) in 2.13 sec: 22,368 declarations; 84,785 references; 10 unresolved inclusions; 1,631 syntax errors; 4,384 unresolved names (3.9%)
+!SESSION 2026-08-29 11:03:00.074 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-08-29 11:03:02.734
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-08-29 11:03:02.735
+!MESSAGE Log4j2 initialized with config file D:\TinyML_Workspace\TinyML\STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-08-29 11:03:06.310
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-29 11:04:16.780
+!MESSAGE Indexed 'Nano_Aquisition' (30 sources, 95 headers) in 2.21 sec: 9,309 declarations; 71,786 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0025%)
+
+!ENTRY org.eclipse.remote.core 4 0 2026-08-29 11:12:35.197
+!MESSAGE UART
+
+!ENTRY org.eclipse.remote.core 4 0 2026-08-29 11:12:36.859
+!MESSAGE UART
+
+!ENTRY org.eclipse.remote.core 4 0 2026-08-29 11:12:38.869
+!MESSAGE UART
+
+!ENTRY org.eclipse.remote.core 4 0 2026-08-29 11:12:42.044
+!MESSAGE UART
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-29 12:02:47.670
+!MESSAGE Indexed 'Nano_Aquisition' (26 sources, 95 headers) in 0.943 sec: 11,706 declarations; 58,739 references; 0 unresolved inclusions; 3 syntax errors; 4 unresolved names (0.0057%)
